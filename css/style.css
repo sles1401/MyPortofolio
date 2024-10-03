@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    color: #000 !important;
+  }
+  
+  .about {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  .project {
+    background-color: #ffffff;
+    padding: 60px 0;
+  }
+  
+  .project-item {
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .contact {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Custom button styles */
+  .custom-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about {
+      text-align: center;
+    }
+  }
+  
+  .contact {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut membulat */
+    padding: 30px 15px; /* Padding untuk seluruh section */
+}
+
+.contact h2 {
+    color: #333; /* Warna teks */
+}
+
+.contact h3 {
+    margin-top: 20px; /* Jarak atas untuk judul */
+}
+
+.contact .list-unstyled {
+    padding-left: 0; /* Menghapus padding kiri untuk list */
+}
+
+.contact .list-inline-item a {
+    font-size: 18px; /* Ukuran teks */
+    color: #333; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.contact .list-inline-item a:hover {
+    color: #007bff; /* Warna saat hover */
+}

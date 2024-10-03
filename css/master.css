@@ -568,3 +568,53 @@ b, strong {
     vertical-align: top;
   }
 }
+
+.contact {
+  background: #2c3e50; /* Dark background for contrast */
+  color: #ecf0f1; /* Light text for readability */
+}
+
+.google-map {
+  border-radius: 10px; /* Rounded corners for the map */
+  overflow: hidden; /* Ensure the map fits within the border radius */
+}
+
+.contact-info {
+  background: #34495e; /* Slightly lighter than section background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-info-item h3 {
+  font-size: 1.5rem; /* Larger font for the name */
+}
+
+.social-links {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.social-links li {
+  margin-left: 15px; /* Spacing between social icons */
+}
+
+.contact-form h2 {
+  font-size: 1.8rem; /* Larger font for the form title */
+}
+
+.contact-form .form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #ced4da; /* Custom border */
+  padding: 10px; /* More padding for better touch targets */
+}
+
+.contact-form .submit-btn {
+  background: #f39c12; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.contact-form .submit-btn:hover {
+  background: #e67e22; /* Darker shade on hover */
+}
