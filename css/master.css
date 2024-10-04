@@ -618,3 +618,23 @@ b, strong {
 .contact-form .submit-btn:hover {
   background: #e67e22; /* Darker shade on hover */
 }
+
+.white-text {
+  color: white;
+}
+
+.skills-wrapper {
+  margin-top: 20px;
+}
+
+.skills-wrapper ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-wrapper li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white; /* To match your theme */
+}
+
